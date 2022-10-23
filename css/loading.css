@@ -1,0 +1,14 @@
+.loading-div {
+    width: 1800px;
+    height: 720px;
+    background-color: rgb(26, 148, 188);
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+}
+.loading-div::before {
+    display: inline-block;
+    vertical-align: middle;
+} 

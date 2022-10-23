@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站标题 -->
+    <title>盒饭</title>
+
+    <!-- 引入css -->
+    <!-- 主要 -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #34ac40, #2c8ae8, #dc47cd, #e7e373, #781fb4);
+            background-size: 500%;
+            animation: bgAnimation 16s linear infinite;
+        }
+
+        @keyframes bgAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* 收款码 */
+        .sponsor img {
+            height: 100%
+        }
+
+        .sponsor h1 {
+            /* 字高度 */
+            line-height: 5px;
+            /* 字大小 */
+            font-size: 66px;
+            /* 加粗 */
+            font-weight: 900;
+        }
+    </style>
+
+    <!-- 引入js -->
+    <!-- 禁止开发者模式 -->
+    <script src='/js/developer.js'></script>
+
+    <!-- 图标  -->
+    <link rel="icon" href="/images/logo/512.ico">
+</head>
+
+<body ondragstart="return false">
+    <div class="sponsor">
+        <img src="/images/收款码.png">
+        <h1>微信或支付宝</h1>
+    </div>
+</body>
+
+</html>

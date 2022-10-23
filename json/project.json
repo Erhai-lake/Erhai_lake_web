@@ -1,0 +1,35 @@
+{
+    "title": "洱海工作室の项目站",
+    "icon": "512.ico",
+    "background_url": "http://www.dmoe.cc/random.php",
+    "background1": [
+        "1.png",
+        "主标题",
+        "副标题",
+        ""
+    ],
+    "background2": [
+        "2.png",
+        "主标题",
+        "副标题",
+        ""
+    ],
+    "background3": [
+        "3.jpg",
+        "主标题",
+        "副标题",
+        ""
+    ],
+    "background4": [
+        "4.jpg",
+        "主标题",
+        "副标题",
+        ""
+    ],
+    "background5": [
+        "5.jpg",
+        "主标题",
+        "副标题",
+        ""
+    ]
+}

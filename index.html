@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="cn" class="no-ie" style="overflow:hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站标题 -->
+    <title id="title"></title>
+
+    <!-- 引入css -->
+    <!-- 主要 -->
+    <link href="/css/index.css" rel="stylesheet">
+    <!-- 加载 -->
+    <link href="/css/loading.css" rel="stylesheet">
+
+    <!-- 引入js -->
+    <!-- iquery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+    <!-- 读取json -->
+    <script src='/js/index_json.js'></script>
+    <!-- 加载 -->
+    <script src='/js/loading.js'></script>
+    <!-- 禁止开发者模式 -->
+    <script src='/js/developer.js'></script>
+    <!-- 计时器 -->
+    <script src='/js/timer.js'></script>
+    <!-- 图标库 -->
+    <script src="https://kit.fontawesome.com/6db996a404.js" crossorigin="anonymous"></script>
+
+    <!-- 图标  -->
+    <link rel="icon" id="icon">
+</head>
+
+<body ondragstart="return false" >
+    <!-- 加油，努力！ -->
+    <!-- 不要催更，我们还要上学的啊！ -->
+    <!-- 好累啊！好想摸鱼！ -->
+
+    <!-- 随机背景 -->
+    <div id="background_url" class="background"></div>
+
+    <!-- 主要 -->
+    <main>
+        <!--加载动画-->
+        <div class="loading-div">
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw "></i>
+            <!-- 读取标题1 -->
+            <h1 id="load_title1"></h1>
+            <!-- 读取标题2 -->
+            <h3 id="load_title2"></h3>
+            <!-- 加载动画尾 -->
+        </div>
+
+        <!-- 整体边框 -->
+        <div class="content">
+            <!-- 左半边边框 -->
+            <div class="left">
+                <!-- logo -->
+                <div class="avatar">
+                    <img src="/images/logo/512.webp">
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a id="navigation1_title" goto="#home" class="active"></a>
+                    </li>
+                    <li>
+                        <a id="navigation2_title" goto="#about"></a>
+                    </li>
+                    <li>
+                        <a id="navigation3_title" goto="#donate"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <section id="home" class="active">
+                    <h1 id="label1_title"></h1>
+                    <div class="items">
+                        <a id="navigation_1" target="_blank" rel="noopener">
+                            <i class="fa fa-home"></i>
+                            <span id="navigation1"></span>
+                        </a>
+                        <a id="navigation_2" target="_blank" rel="noopener">
+                            <i class="fa fa-github"></i>
+                            <span id="navigation2"></span>
+                        </a>
+                        <a id="navigation_3" target="_blank" rel="noopener">
+                            <i class="fa fa-envelope"></i>
+                            <span id="navigation3"></span>
+                        </a>
+                        <a id="navigation_4" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-bars-progress"></i>
+                            <span id="navigation4"></span>
+                        </a>
+                        <a id="navigation_5" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <span id="navigation5"></span>
+                        </a>
+                        <a id="navigation_6" target="_blank" rel="noopener">
+                            <i class="fa fa-telegram"></i>
+                            <span id="navigation6"></span>
+                        </a>
+                    </div>
+                    <p id="hitokoto" class="hitokoto"><a href="#" id="hitokoto_text" target="_blank">:D 获取中...</a></p>
+                </section>
+                <section id="about">
+                    <h1 id="label2_title"></h1>
+                    <p>
+                        在这里会产出各种有意思的东西！
+                        <br>
+                        <br>
+                        如：Minecraft的整合包、材质包，软件等。
+                        <br>
+                        <br>
+                        一起努力，一起奋斗！虽然我们才高中，但我们也是很厉害的说！
+                    </p>
+                </section>
+                <section id="donate">
+                    <h1 id="label3_title"></h1>
+                    <div class="donate-img-box">
+                        <a href="/sponsor.html" target="_blank" rel="noopener">
+                            <img src="/images/求投食.jpg">
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="/js/main.js"></script>
+
+    <!-- 版权信息 -->
+    <!-- 禁止删除，可以更改，但必须注明“洱海工作室”和开源地址 -->
+    <div class="copyright">
+        <p> © 2022 <a class="copyright_a" href="/index.html">洱海工作室</a> |
+            <a class="copyright_a" target="_blank"
+                href="https://github.com/Erhai-lake/Erhai_lake_official_website">已开源</a> | <a class="copyright_a"
+                target="_blank" href="WiKi/index/index.html">文档</a> | 已在风雨中度过 <span id="timer">加载中...</span>
+        </p>
+        <!-- 版权信息尾 -->
+    </div>
+</body>
+
+</html>

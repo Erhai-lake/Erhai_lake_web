@@ -1,0 +1,286 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgba(0, 255, 255, 0.2);
+    overflow:hidden;
+}
+
+/* 圆框（logo的框） */
+.content {
+    /* 位置 */
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    /* 大小 */
+    width: 100px;
+    height: 100px;
+    /* 颜色 */
+    border: 3px #000000 solid; 
+    /* 圆角 */
+    border-radius: 50%;
+}
+
+.logoimg{
+    width: 100px;
+    height:100px;
+}
+
+/* 主标题 */
+.main_title{
+    /* 位置 */
+    position: absolute;
+    top: -9px;
+    left: 130px;
+    /* 字大小 */
+    font-size:50px;
+    /* 粗 */
+    font-weight:900;
+}
+
+/* 分割线1 */
+.line-1{
+    /* 位置 */
+    position: absolute;
+    top: 100px;
+    left: -1px;
+    width: 100%;
+}
+
+/* 分割线2 */
+.line-2{
+    /* 位置 */
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    height: 100%;
+}
+
+/* 全局 */
+.bookmark{
+    /* 位置 */
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    margin: auto;
+    /* 去点 */
+    list-style: none;
+    /* 固定 */
+    position:fixed;
+    z-index:999;
+}
+
+/* 选中 */
+/* 父选项 */
+.bookmark-0{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+    /* 字大小 */
+    font-size:30px;
+    /* 粗 */
+    font-weight:900;
+}
+
+/* 未选中 */
+/* 父选项 */
+.bookmark-1{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    /* 字大小 */
+    font-size:30px;
+    /* 粗 */
+    font-weight:900;
+}
+.bookmark-1:hover{
+    /* 颜色 */
+    color: rgb(0, 255, 0);
+    /* 字大小 */
+    font-size:40px;
+}
+
+/* 正文 */
+.text{
+    /* 位置 */
+    position: absolute;
+    top: 99px;
+    left: 247px;
+    width: 100%;
+    height: 100%;
+}
+/* 帮助文档 */
+.text-1{
+    /* 位置 */
+    position: absolute;
+    top: 50px;
+    left: 430px;
+    color:rgb(0, 0, 0);
+    /* 字大小 */
+    font-size:100px;
+    /* 粗 */
+    font-weight:900;
+}
+/* 小白和开发者最好的导师 */
+.text-2{
+    /* 位置 */
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    color:rgb(0, 0, 0);
+    /* 字大小 */
+    font-size:50px;
+    /* 粗 */
+    font-weight:900;
+}
+/* ——更新时间：2022/10/16 */
+.text-3{
+    /* 位置 */
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    color:rgb(0, 0, 0);
+    /* 字大小 */
+    font-size:30px;
+    /* 粗 */
+    font-weight:900;
+}
+
+/* 下一页 */
+.lower{
+    /* 位置 */
+    position: absolute;
+    top:650px; 
+    left: 1400px;
+    text-decoration: none;
+    color:rgb(0, 0, 255);
+    /* 字大小 */
+    font-size:20px;
+    /* 粗 */
+    font-weight:900;
+}
+
+/* 版权信息 */
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 1px;
+}   
+.copyright_a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+/* 手机适配 */
+@media screen and (max-width: 900px){
+    body{
+        overflow:hidden;
+    }
+
+    /* 圆框（logo的框） */
+    .content {
+        left: 5px;
+        /* 大小 */
+        width: 50px;
+        height: 50px;
+    }
+    .logoimg{
+        /* 大小 */
+        width: 50px;
+        height: 50px;
+    }
+
+    /* 主标题 */
+    .main_title{
+        /* 位置 */
+        top: -15px;
+        left: 70px;
+        /* 字大小 */
+        font-size:30px;
+    }
+
+    /* 分割线1 */
+    .line-1{
+        /* 位置 */
+        top: 50px;
+        left: -1px;
+    }
+
+    /* 分割线2 */
+    .line-2{
+        /* 位置 */
+        top: 50px;
+        left: 125px;
+    }
+
+    /* 选中 */
+    /* 父选项 */
+    .bookmark-0{
+        /* 字大小 */
+        font-size:25px;
+    }
+
+    /* 未选中 */
+    /* 父选项 */
+    .bookmark-1{
+        /* 字大小 */
+        font-size:20px;
+    }
+    .bookmark-1:hover{
+        /* 字大小 */
+        font-size:25px;
+    }
+
+    /* 全局 */
+    .bookmark{
+        /* 位置 */
+        top: 60px;
+        left: -25px;
+    }
+
+    /* 正文 */
+    .text{
+        /* 位置 */
+        top: 49px;
+        left: 121px;
+    }
+
+    /* 帮助文档 */
+    .text-1{
+        /* 位置 */
+        top: 10px;
+        left: 70px;
+        /* 字大小 */
+        font-size:30px;
+    }
+
+    /* 小白和开发者最好的导师 */
+    .text-2{
+        /* 位置 */
+        top: 60px;
+        left: 40px;
+        /* 字大小 */
+        font-size:15px;
+    }
+
+    /* ——更新时间：2022/10/16 */
+    .text-3{
+        /* 位置 */
+        top: 85px;
+        left: 100px;
+        /* 字大小 */
+        font-size:10px;
+    }
+
+    /* 下一页 */
+        .lower{
+        /* 位置 */
+        top: 170px;
+        left: 270px;
+        /* 字大小 */
+        font-size:20px;
+    }
+}
