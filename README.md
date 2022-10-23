@@ -1,11 +1,10 @@
-# Erhai_lake_official_website
+# Erhai_lake_web
 
 洱海工作室官网（简体中文）
 
-<<<<<<< HEAD
 <p><strong><h2>洱海工作室官网</h2></strong>简单的小主页</p>
 
-![洱海工作室の导航页](https://erhai-lake.github.io/Erhai_lake_official_website/)
+![洱海工作室の导航页](https://erhai-lake.github.io/Erhai_lake_web/)
 
 网站几乎所有的数据都由 json 管理
 
