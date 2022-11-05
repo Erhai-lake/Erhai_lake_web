@@ -13,8 +13,9 @@ request.onload = function () {
     document.getElementById('title').innerHTML = data.title
 
     // 图标
-    var icon = document.getElementById('icon');
-    icon.setAttribute('href', "/images/logo/" + data.icon);
+    var icon1 = document.getElementById('icon1');
+    icon1.setAttribute('href', "/images/logo/" + data.icon[0]);
+    document.getElementById("logo").src = "/images/logo/" + data.icon[1];
 
     // 背景图片API
     $("#background_url").css({ "backgroundImage": "url(" + data.background_url + ")" });

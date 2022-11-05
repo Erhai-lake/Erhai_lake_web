@@ -168,8 +168,8 @@ main .content {
     animation: content .5s 2.2s both;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     overflow: hidden;
-    width: 55em;
-    height: 35em
+    width: 45em;
+    height: 30em
 }
 
 .left {
@@ -379,6 +379,7 @@ body {
     font-size: 15px;
     letter-spacing: 1px;
 }
+
 .copyright_a {
     text-decoration: none;
     color: rgb(255, 255, 255);

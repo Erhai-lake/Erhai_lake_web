@@ -132,21 +132,3 @@ body {
     text-decoration:none;
     color: rgb(255, 255, 255);
 }
-/* 版权信息 */
-.copyright {
-    position: absolute;
-    bottom: 0;
-    left: 1px;
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    background: rgba(51, 51, 51, 0.5);
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-.copyright_a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}

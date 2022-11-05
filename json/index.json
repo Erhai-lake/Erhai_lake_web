@@ -1,8 +1,11 @@
 {
     "title": "洱海工作室の导航页",
-    "icon": "512.ico",
     "background_url": "http://www.dmoe.cc/random.php",
-    "hitokotoAPI": "https://v1.hitokoto.cn",
+    "hitokotoAPI": "https://v1.hitokoto.cn/?max_length=25",
+    "icon": [
+        "512.ico",
+        "512.webp"
+    ],
     "load_title": [
         "洱海工作室の导航页",
         "正在加载..."
@@ -21,14 +24,14 @@
         "博客",
         "",
         "GitHub",
-        "https://github.com/Erhai-lake/Erhai_lake_official_website",
+        "https://github.com/Erhai-lake/Erhai_lake_web",
         "邮箱",
         "mailto:fuzixuan0714_0826@163.com",
         "项目站",
-        "/project.html",
+        "/project/project.html",
         "文档",
         "/WiKi/index/index.html",
-        "Telegram",
-        ""
+        "友情链接",
+        "/friendship/friendship.html"
     ]
 }

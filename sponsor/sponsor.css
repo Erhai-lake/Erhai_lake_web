@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #34ac40, #2c8ae8, #dc47cd, #e7e373, #e7e373, #dc47cd, #2c8ae8, #34ac40);
+    background-size: 500%;
+    animation: bgAnimation 3s linear infinite;
+}
+
+@keyframes bgAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 100% 150%;
+    }
+}
+
+/* 收款码 */
+.sponsor img {
+    height: 100%
+}
+
+.sponsor h1 {
+    /* 字高度 */
+    line-height: 5px;
+    /* 字大小 */
+    font-size: 66px;
+    /* 加粗 */
+    font-weight: 900;
+}
